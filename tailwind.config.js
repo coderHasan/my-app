@@ -10,8 +10,8 @@ module.exports = {
       colors: {
           color: "#999999",
           primary: "#fab528",
-          title: "#669900"
-
+          title: "#669900",
+          text_color: "#000"
       },
     },
   },

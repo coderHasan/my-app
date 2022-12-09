@@ -7,7 +7,7 @@ import { AiOutlineShoppingCart, AiOutlineUser } from 'react-icons/ai'
 
 const Header = () => {
   return (
-    <header className='bg-white py-6'>
+    <header className='bg-white py-7 border-b'>
       <div className='container'>
         {/* Header top area */}
         <div className='flex justify-between items-center'>

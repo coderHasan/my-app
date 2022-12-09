@@ -59,7 +59,7 @@ const Search = () => {
               </select>
               <input
                 type="text" placeholder="I'm searching for..."
-                className='bg-transparent border-l border-gray-400 px-4'
+                className='bg-transparent border-l outline-none border-gray-400 px-4'
               />
               <AiOutlineSearch className='text-2xl text-gray-500' />
           </div>

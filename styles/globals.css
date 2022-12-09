@@ -19,6 +19,14 @@ body {
 
 /* tailwind component */
 
+p{
+  @apply text-color
+}
+
+  h1,h2,h3,h4,h5,h6{
+    @apply text-text_color
+  }
+
 @layer components{
   .container {
     @apply max-w-screen-2xl mx-auto px-6;
