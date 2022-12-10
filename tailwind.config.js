@@ -11,7 +11,7 @@ module.exports = {
           color: "#999999",
           primary: "#fab528",
           title: "#669900",
-          text_color: "#000"
+          text_color: "#1a1818"
       },
     },
   },
