@@ -51,7 +51,7 @@ const Footer = () => {
           <div className='max-w-xs'>
 
               <h2 className='text-xl mb-5 font-bold'>Farmart - Your Online Foods & Grocery</h2>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed finibus viverra iaculis. Etiam vulputate et justo eget scelerisque.</p>
+              <p className=' text-text_color'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed finibus viverra iaculis. Etiam vulputate et justo eget scelerisque.</p>
 
               <div className='mt-10 space-y-2'>
                   <span className='flex'>
@@ -164,7 +164,7 @@ const Footer = () => {
           {/* Newsletter */}
           <div className=' lg:max-w-xs'>
           <h2 className='text-lg mb-6 font-bold'>Farmart Newsletter</h2>
-              <p className='text-sm'>Register now to get updates on promotions and coupns. Don't worry! We not spam</p>
+              <p className='text-text_color'>Register now to get updates on promotions and coupns. Don't worry! We not spam</p>
 
               <div className='flex items-center mt-5'>
                 <div className='flex  flex-1 items-cneter border p-3 rounded'>
@@ -200,7 +200,7 @@ const Footer = () => {
   const FooterLinks = ({href ='#', text}) => (
 
       <li>
-      <Link className='text-sm text-color' href={href}>
+      <Link className='text-lg text-text_color' href={href}>
           {text}
       </Link>
       </li>
